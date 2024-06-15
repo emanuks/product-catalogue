@@ -1,0 +1,304 @@
+{
+	"products": [
+		{
+			"id": 1,
+			"name": "Sapatenis Masculino Vinho",
+			"fullPrice": 300.0,
+			"discount": 0.1,
+			"discountedPrice": 270.0,
+			"image": "@/assets/images/sapatenis_vinho.png",
+			"categories": [
+				{
+					"id": 1,
+					"name": "Sapatenis"
+				},
+				{
+					"id": 2,
+					"name": "Tenis"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"name": "Tenis de Corrida Masculino Branco",
+			"fullPrice": 300.0,
+			"discount": 0.1,
+			"discountedPrice": 270.0,
+			"image": "@/assets/images/tenis_de_corrida_branco.png",
+			"categories": [
+				{
+					"id": 2,
+					"name": "Tenis"
+				},
+				{
+					"id": 6,
+					"name": "Tenis de Corrida"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"name": "Tenis de Corrida Masculino Verde",
+			"fullPrice": 300.0,
+			"discount": 0.1,
+			"discountedPrice": 270.0,
+			"image": "@/assets/images/tenis_de_corrida_verde.png",
+			"categories": [
+				{
+					"id": 2,
+					"name": "Tenis"
+				},
+				{
+					"id": 6,
+					"name": "Tenis de Corrida"
+				}
+			]
+		},
+		{
+			"id": 4,
+			"name": "Sapatenis Masculino Vinho",
+			"fullPrice": 300.0,
+			"discount": 0.1,
+			"discountedPrice": 270.0,
+			"image": "@/assets/images/sapatenis_vinho.png",
+			"categories": [
+				{
+					"id": 1,
+					"name": "Sapatenis"
+				},
+				{
+					"id": 2,
+					"name": "Tenis"
+				}
+			]
+		},
+		{
+			"id": 5,
+			"name": "Tenis de Corrida Masculino Branco",
+			"fullPrice": 300.0,
+			"discount": 0.1,
+			"discountedPrice": 270.0,
+			"image": "@/assets/images/tenis_de_corrida_branco.png",
+			"categories": [
+				{
+					"id": 2,
+					"name": "Tenis"
+				},
+				{
+					"id": 6,
+					"name": "Tenis de Corrida"
+				}
+			]
+		},
+		{
+			"id": 6,
+			"name": "Tenis de Corrida Masculino Verde",
+			"fullPrice": 300.0,
+			"discount": 0.1,
+			"discountedPrice": 270.0,
+			"image": "@/assets/images/tenis_de_corrida_verde.png",
+			"categories": [
+				{
+					"id": 2,
+					"name": "Tenis"
+				},
+				{
+					"id": 6,
+					"name": "Tenis de Corrida"
+				}
+			]
+		},
+		{
+			"id": 7,
+			"name": "Sapatenis Masculino Vinho",
+			"fullPrice": 300.0,
+			"discount": 0.1,
+			"discountedPrice": 270.0,
+			"image": "@/assets/images/sapatenis_vinho.png",
+			"categories": [
+				{
+					"id": 1,
+					"name": "Sapatenis"
+				},
+				{
+					"id": 2,
+					"name": "Tenis"
+				}
+			]
+		},
+		{
+			"id": 8,
+			"name": "Tenis de Corrida Masculino Branco",
+			"fullPrice": 300.0,
+			"discount": 0.1,
+			"discountedPrice": 270.0,
+			"image": "@/assets/images/tenis_de_corrida_branco.png",
+			"categories": [
+				{
+					"id": 2,
+					"name": "Tenis"
+				},
+				{
+					"id": 6,
+					"name": "Tenis de Corrida"
+				}
+			]
+		},
+		{
+			"id": 9,
+			"name": "Tenis de Corrida Masculino Verde",
+			"fullPrice": 300.0,
+			"discount": 0.1,
+			"discountedPrice": 270.0,
+			"image": "@/assets/images/tenis_de_corrida_verde.png",
+			"categories": [
+				{
+					"id": 2,
+					"name": "Tenis"
+				},
+				{
+					"id": 6,
+					"name": "Tenis de Corrida"
+				}
+			]
+		},
+		{
+			"id": 10,
+			"name": "Sapatenis Masculino Vinho",
+			"fullPrice": 300.0,
+			"discount": 0.1,
+			"discountedPrice": 270.0,
+			"image": "@/assets/images/sapatenis_vinho.png",
+			"categories": [
+				{
+					"id": 1,
+					"name": "Sapatenis"
+				},
+				{
+					"id": 2,
+					"name": "Tenis"
+				}
+			]
+		},
+		{
+			"id": 11,
+			"name": "Tenis de Corrida Masculino Branco",
+			"fullPrice": 300.0,
+			"discount": 0.1,
+			"discountedPrice": 270.0,
+			"image": "@/assets/images/tenis_de_corrida_branco.png",
+			"categories": [
+				{
+					"id": 2,
+					"name": "Tenis"
+				},
+				{
+					"id": 6,
+					"name": "Tenis de Corrida"
+				}
+			]
+		},
+		{
+			"id": 12,
+			"name": "Tenis de Corrida Masculino Verde",
+			"fullPrice": 300.0,
+			"discount": 0.1,
+			"discountedPrice": 270.0,
+			"image": "@/assets/images/tenis_de_corrida_verde.png",
+			"categories": [
+				{
+					"id": 2,
+					"name": "Tenis"
+				},
+				{
+					"id": 6,
+					"name": "Tenis de Corrida"
+				}
+			]
+		},
+		{
+			"id": 13,
+			"name": "Sapatenis Masculino Vinho",
+			"fullPrice": 300.0,
+			"discount": 0.1,
+			"discountedPrice": 270.0,
+			"image": "@/assets/images/sapatenis_vinho.png",
+			"categories": [
+				{
+					"id": 1,
+					"name": "Sapatenis"
+				},
+				{
+					"id": 2,
+					"name": "Tenis"
+				}
+			]
+		},
+		{
+			"id": 14,
+			"name": "Tenis de Corrida Masculino Branco",
+			"fullPrice": 300.0,
+			"discount": 0.1,
+			"discountedPrice": 270.0,
+			"image": "@/assets/images/tenis_de_corrida_branco.png",
+			"categories": [
+				{
+					"id": 2,
+					"name": "Tenis"
+				},
+				{
+					"id": 6,
+					"name": "Tenis de Corrida"
+				}
+			]
+		},
+		{
+			"id": 15,
+			"name": "Tenis de Corrida Masculino Verde",
+			"fullPrice": 300.0,
+			"discount": 0.1,
+			"discountedPrice": 270.0,
+			"image": "@/assets/images/tenis_de_corrida_verde.png",
+			"categories": [
+				{
+					"id": 2,
+					"name": "Tenis"
+				},
+				{
+					"id": 6,
+					"name": "Tenis de Corrida"
+				}
+			]
+		}
+	],
+	"categories": [
+		{
+			"id": 1,
+			"name": "Sapatenis"
+		},
+		{
+			"id": 2,
+			"name": "Tenis"
+		},
+		{
+			"id": 3,
+			"name": "Chinelos"
+		},
+		{
+			"id": 4,
+			"name": "Chuteiras"
+		},
+		{
+			"id": 5,
+			"name": "Sandalias"
+		},
+		{
+			"id": 6,
+			"name": "Tenis de corrida"
+		},
+		{
+			"id": 7,
+			"name": "Botas"
+		}
+	]
+}
