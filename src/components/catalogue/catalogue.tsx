@@ -1,5 +1,7 @@
 import React from "react";
 
+import { ProductCard } from "@/components/product-card";
+
 export const Catalogue = async () => {
 	const response = await fetch(
 		"https://my-json-server.typicode.com/emanuks/product-catalogue/products"
@@ -17,7 +19,7 @@ export const Catalogue = async () => {
 				<aside className="w-1/4">Teste</aside>
 				<div className="w-3/4">
 					{products.map((product) => (
-						<p key={product.id}>{product.name}</p>
+						<ProductCard key={product.id} product={product} />
 					))}
 				</div>
 			</div>

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-import bannerImg from "@/assets/images/banner.png";
+import bannerImg from "../../../public/assets/images/banner.png";
 
 export const Banner = () => {
 	return (
