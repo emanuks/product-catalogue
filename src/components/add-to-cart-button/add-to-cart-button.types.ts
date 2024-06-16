@@ -1,5 +1,5 @@
 import { ProductI } from "@/app/global.types";
 
-export interface ProductCardProps {
+export interface AddToCardButtonProps {
   product: ProductI;
 }

@@ -1,7 +1,8 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import { ProductCardProps } from "./product-card.types";
-import Link from "next/link";
+import { AddToCartButton } from "../add-to-cart-button";
 
 export const ProductCard = ({ product }: ProductCardProps) => {
   const categories = product.categories.map(category => category.name).join(', ');
@@ -37,9 +38,7 @@ export const ProductCard = ({ product }: ProductCardProps) => {
         </h2>
       </Link>
 
-      <button className="my-8 border border-orange-500 rounded py-3 text-orange-500 hover:bg-orange-500 hover:text-white">
-        Adicionar ao carrinho
-      </button>
+      <AddToCartButton product={product} />
     </div>
   );
 }
