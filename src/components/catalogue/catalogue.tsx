@@ -4,6 +4,7 @@ import { ProductCard } from "@/components/product-card";
 import { Product } from "./catalogue.types";
 
 export const Catalogue = async () => {
+	await new Promise(resolve => setTimeout(resolve, 2000));
 	const response = await fetch(
 		"https://my-json-server.typicode.com/emanuks/product-catalogue/products"
 	);

@@ -1,12 +1,9 @@
-import React, { ReactNode } from "react";
+import React from "react";
 
 import { Header } from "@/components/header";
+import { LayoutProps } from "../global.types";
 
-interface HomeLayoutProps {
-	children: ReactNode;
-}
-
-const HomeLayout = ({ children }: HomeLayoutProps) => {
+const HomeLayout = ({ children }: LayoutProps) => {
 	return (
 		<div>
 			<Header />

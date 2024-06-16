@@ -1,3 +1,5 @@
+import { ReactNode } from "react";
+
 export interface ProductI {
   id: number;
   name: string;
@@ -11,4 +13,8 @@ export interface ProductI {
 export interface CategoryI {
   id: number;
   name: string;
+}
+
+export interface LayoutProps {
+  children: ReactNode;
 }
