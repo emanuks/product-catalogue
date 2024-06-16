@@ -9,7 +9,7 @@ export const Banner = () => {
 			<h1 className="text-4xl text-wrap text-white font-bold mx-24">
 				Estilo e conforto para os seus pes
 			</h1>
-            <Image src={bannerImg} alt="" height={320} width={720} />
+			<Image src={bannerImg} alt="" height={320} width={720} />
 		</section>
 	);
 };
