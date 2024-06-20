@@ -1,5 +1,3 @@
-import React from "react";
-
 import { Header } from "@/components/header";
 import { LayoutProps } from "../global.types";
 
