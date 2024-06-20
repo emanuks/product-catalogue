@@ -34,7 +34,7 @@ export const TotalCard = () => {
 
       <button
         disabled={total === 0}
-        className="mt-5 bg-orange-500 p-3 rounded text-white hover:opacity-75 disabled:cursor-not-allowed"
+        className="mt-5 bg-orange-500 p-3 rounded text-white hover:opacity-75 disabled:cursor-not-allowed disabled:opacity-75"
       >
         Finalizar compra
       </button>

@@ -1,19 +1,21 @@
 import React from "react";
 
-import { ProductCard } from "@/components/product-card";
-import { Product } from "./catalogue.types";
+import { SearchInput } from "@/components/search-input";
+
+import { ProductI } from "@/app/global.types";
+import { ProductCard } from "../product-card";
 
 export const Catalogue = async () => {
-	const response = await fetch(
+  const response = await fetch(
 		"https://my-json-server.typicode.com/emanuks/product-catalogue/products"
 	);
-	const products: Product[] = await response.json();
+	const products: ProductI[] = await response.json();
 
 	return (
 		<section className="mx-10 md:mx-24 my-10">
-			<div className="flex flex-row justify-between mb-10">
+			<div className="flex flex-col lg:flex-row gap-3 justify-between mb-10">
 				<p className="font-bold text-xl">{products.length} itens encontrados</p>
-				<input placeholder="Pesquisar" />
+				<SearchInput />
 			</div>
 
 			<div className="flex flex-col md:flex-row gap-x-2 gap">

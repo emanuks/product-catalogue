@@ -1,5 +1,5 @@
 import { CartProducts } from "@/components/cart-products";
-import { TotalCard } from "@/components/total-card/total-card";
+import { TotalCard } from "@/components/total-card";
 
 const CartPage = () => {
   return (

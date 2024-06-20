@@ -1,0 +1,13 @@
+label {
+  display: grid;
+  grid-template: 1fr / auto 1fr;
+  gap: 0px;
+  
+  cursor: text;
+}
+
+label>input {
+  outline: none !important;
+  border: none;
+  background: transparent;
+}
