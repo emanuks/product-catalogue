@@ -22,3 +22,17 @@
     transform: rotate(360deg);
   }
 }
+
+label {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  cursor: text;
+}
+
+label>input {
+  outline: none !important;
+  border: none;
+  background: transparent;
+}

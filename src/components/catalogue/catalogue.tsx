@@ -4,6 +4,7 @@ import { SearchInput } from "@/components/search-input";
 
 import { ProductI } from "@/app/global.types";
 import { ProductCard } from "../product-card";
+import { SearchBox } from "../search-box";
 
 export const Catalogue = async () => {
   const response = await fetch(
@@ -18,8 +19,8 @@ export const Catalogue = async () => {
 				<SearchInput />
 			</div>
 
-			<div className="flex flex-col lg:flex-row gap-x-2 gap">
-				<aside className="lg:w-1/4">Teste</aside>
+			<div className="flex flex-col lg:flex-row gap-x-5 gap">
+				<SearchBox />
 				<div className="flex flex-col lg:grid lg:grid-cols-3 gap-3 lg:w-3/4">
 					{products.map((product) => (
 						<ProductCard key={product.id} product={product} />
