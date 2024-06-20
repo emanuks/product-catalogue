@@ -3,7 +3,7 @@ import { TotalCard } from "@/components/total-card";
 
 const CartPage = () => {
   return (
-    <section className="grid grid-cols-3 gap-10">
+    <section className="flex flex-col gap-5 lg:grid lg:grid-cols-3 lg:gap-10">
       <div className="flex flex-row gap-3 col-span-2">
         <CartProducts />
       </div>

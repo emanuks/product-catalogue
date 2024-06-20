@@ -16,12 +16,12 @@ const ProductPage = async ({ params }: ProductPageProps) => {
   const product: ProductI = await response.json();
 
   return (
-    <div className="grid grid-cols-10 gap-10">
-      <div className="col-span-1 flex flex-col gap-3 justify-center items-center">
-        <Image src={product.image} alt="Product Image" width={105} height={100} />
-        <Image src={product.image} alt="Product Image" width={105} height={100} />
-        <Image src={product.image} alt="Product Image" width={105} height={100} />
-        <Image src={product.image} alt="Product Image" width={105} height={100} />
+    <div className="flex flex-col lg:grid lg:grid-cols-10 gap-5 lg:gap-10">
+      <div className="col-span-1 flex lg:flex-col gap-3 justify-center items-center">
+        <Image src={product.image} alt="Product Image" width={105} height={100} className="max-w-16 lg:max-w-full" />
+        <Image src={product.image} alt="Product Image" width={105} height={100} className="max-w-16 lg:max-w-full" />
+        <Image src={product.image} alt="Product Image" width={105} height={100} className="max-w-16 lg:max-w-full" />
+        <Image src={product.image} alt="Product Image" width={105} height={100} className="max-w-16 lg:max-w-full" />
       </div>
       <div className="col-span-3 flex justify-center items-center">
         <Image src={product.image} alt="Product Image" width={460} height={480} />

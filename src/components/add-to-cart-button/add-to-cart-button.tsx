@@ -24,7 +24,7 @@ export const AddToCartButton = ({ product }: AddToCardButtonProps) => {
 
   return (
     <button
-      className="my-8 border border-orange-500 rounded py-3 text-orange-500 hover:bg-orange-500 hover:text-white"
+      className="mb-8 mt-4 lg:my-8 border border-orange-500 rounded py-3 text-orange-500 hover:bg-orange-500 hover:text-white"
       onClick={handleAddToCart}
     >
       {isPresent ? 'Remover do carrinho' : 'Adicionar ao carrinho'}
