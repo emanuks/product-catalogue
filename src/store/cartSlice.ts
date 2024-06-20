@@ -31,10 +31,21 @@ export const cartSlice = createSlice({
     removeFromCart: (state, action) => {
       state.products = state.products.filter(product => product.id !== action.payload.id);
       state.total -= action.payload.discountedPrice * action.payload.quantity;
+    },
+    clearCart: (state) => {
+      state.products = [];
+      state.total = 0;
     }
   }
 });
 
-export const { addToCart, increment, decrement, changeQty, removeFromCart } = cartSlice.actions;
+export const { 
+  addToCart, 
+  increment, 
+  decrement, 
+  changeQty, 
+  removeFromCart, 
+  clearCart 
+} = cartSlice.actions;
 
 export default cartSlice.reducer;

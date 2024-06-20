@@ -1,10 +1,19 @@
 'use client';
 
-import { RootState } from "@/store/store";
+import { useState } from "react";
 import { useSelector } from "react-redux";
 
+import { RootState } from "@/store/store";
+import { CheckoutModal } from "../checkout-modal";
+
 export const TotalCard = () => {
+  const [open, setOpen] = useState(false);
+
   const total = useSelector((state: RootState) => state.cart.total);
+
+  const handleClose = () => {
+    setOpen(false);
+  }
 
   return (
     <div className="flex flex-col">
@@ -35,9 +44,12 @@ export const TotalCard = () => {
       <button
         disabled={total === 0}
         className="mt-5 bg-orange-500 p-3 rounded text-white hover:opacity-75 disabled:cursor-not-allowed disabled:opacity-75"
+        onClick={() => setOpen(true)}
       >
         Finalizar compra
       </button>
+
+      <CheckoutModal open={open} onRequestClose={handleClose} />
     </div>
   );
 }

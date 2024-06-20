@@ -35,17 +35,18 @@ export const CategoriesSearch = ({ categories }: CategoriesSearchProps) => {
 
   return (
     <div className="flex flex-col gap-2 mt-4">
-    <label className="bg-gray-100 py-1 px-3 mb-4 rounded items-center">
-      <input 
-        placeholder="Pesquisar" 
-        type="search" 
-        className="focus:outline-orange-400 w-11/12" 
-        onChange={handleSearch}
-      />
+      <label className="bg-gray-100 py-1 px-3 mb-4 rounded items-center">
+        <input 
+          placeholder="Pesquisar" 
+          type="search" 
+          className="focus:outline-orange-400 w-11/12" 
+          onChange={handleSearch}
+        />
 
-      <SearchIcon className="fill-orange-500 w-4" />
-    </label>
+        <SearchIcon className="fill-orange-500 w-4" />
+      </label>
 
+      {!filteredCategories.length && <p className="text-gray-400 text-center">Nenhuma categoria encontrada.</p>}
       {filteredCategories.map(category => 
         <div 
           key={category.id}
@@ -55,7 +56,7 @@ export const CategoriesSearch = ({ categories }: CategoriesSearchProps) => {
             type="checkbox" 
             id={category.id.toString()}
             checked={selectedCategories.some(selectedCategory => selectedCategory.id === category.id)}
-            onChange={(event) => handleClick(category)}
+            onChange={() => handleClick(category)}
           />
           <label 
             htmlFor={category.id.toString()}
